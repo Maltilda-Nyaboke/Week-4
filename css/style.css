@@ -6,3 +6,7 @@
 body{
     background-color: rgb(20, 29, 38);
 }
+.one h1{
+    text-align: center;
+    color: white;
+}
