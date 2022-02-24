@@ -12,6 +12,10 @@ body{
     margin-top: 250px;
     font-size: 50px;
 }
+.one h2{
+    text-align: center;
+    color: wheat;
+}
 nav{
     display: flex;
     margin-top: 20px;
@@ -24,7 +28,7 @@ gap: 30px;
 nav ul li{
     display: inline;
      list-style: none;
-     gap: 20px;
+     padding: 20px;
      color: rgb(197,31,93);
 }
 nav ul li a{
