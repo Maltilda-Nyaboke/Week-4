@@ -16,6 +16,10 @@ body{
     text-align: center;
     color: wheat;
 }
+.two-2 p{
+    text-align: left;
+    color: white;
+}
 nav{
     display: flex;
     margin-top: 20px;
