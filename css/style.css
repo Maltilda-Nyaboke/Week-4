@@ -42,6 +42,7 @@ h2{
     color: rgb(197, 31, 93);
     text-align: center;
     text-decoration: underline;
+    margin-top: 20px;
 }
 span{
     color: white;
@@ -50,4 +51,16 @@ span{
 .two p{
     color: white;
     line-height: 30px;
+}
+.content{
+    margin-top: 100px;
+}
+.portfolio{
+    display: flex;
+    
+}
+.portfolio img{
+    width: 20%;
+    height: 20%;
+    justify-content: space-around;
 }
