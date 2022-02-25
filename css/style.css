@@ -6,12 +6,19 @@
 body{
     background-color: rgb(20, 29, 38);
 }
+.one{
+    height: 500px;
+    background-color: tan;
+    background-image: url(../img/panther-spirit-animal.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
 .one h1{
     text-align: center;
     color: white;
     margin-top: 250px;
-    font-size: 50px;
-    border: 2px solid orangered;
+    font-size: 30px;
+    /* border: 2px solid orangered; */
 }
 .one h2{
     text-align: center;
