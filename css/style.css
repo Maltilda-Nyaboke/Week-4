@@ -33,12 +33,21 @@ nav ul li a{
     color: rgb(197, 31, 93);
     
 }
-.two h2{
+.two{
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+}
+h2{
     color: rgb(197, 31, 93);
     text-align: center;
     text-decoration: underline;
 }
 span{
     color: white;
-    
+
+}
+.two p{
+    color: white;
+    line-height: 30px;
 }
