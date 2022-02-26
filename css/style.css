@@ -57,10 +57,21 @@ span{
 }
 .portfolio{
     display: flex;
+    justify-content: space-evenly;
     
 }
 .portfolio img{
-    width: 20%;
-    height: 20%;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    width: 30%;
+    padding: 20px;
+}
+.contact{
+    padding: 20px;
+}
+hr{
+    width: 50%;
+    color: rgb(197, 31, 93);
+}
+.contact p{
+    color: white;
 }
