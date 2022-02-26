@@ -128,13 +128,16 @@ span{
 }
 hr{
     border: 1px solid rgb(197, 31, 93);
-    width: 50%;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
     
 }
 .contact p{
     color: white;
     padding: 20px;
-    text-align: center;
+    margin-left: 420px;
+    
 }
 .btn{
     background-color: transparent;
