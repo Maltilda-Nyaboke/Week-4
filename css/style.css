@@ -25,13 +25,17 @@ nav ul{
 nav ul li{
     display: inline;
     padding: 20px;
-    
+    justify-content: end;
     
 }
 nav ul li a{
     text-decoration: none;
     color: rgb(197, 31, 93);
+  
     
+}
+.social{
+    background-color: orchid;
 }
 .two{
     display: flex;
@@ -69,8 +73,9 @@ span{
     padding: 20px;
 }
 hr{
-    width: 50%;
     color: rgb(197, 31, 93);
+    width: 50%;
+    
 }
 .contact p{
     color: white;
