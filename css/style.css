@@ -80,6 +80,9 @@ gap: 20px;
     justify-content: space-evenly;
     width: 80%;
 }
+.pic{
+    margin-top: 100px;
+}
 h2{
     color: rgb(197, 31, 93);
     text-align: center;
@@ -110,6 +113,7 @@ span{
 }
 .portfolio a :hover{
     opacity: 0.2;
+    transform: scale(0.25);
 }
 .port{
     display: flex;
@@ -121,6 +125,14 @@ span{
     width: 30%;
     height:40vh ;
     padding: 20px;
+}
+.img-1  p{
+    color: white;
+    text-align: center;
+}
+.img-1  h3{
+    color: white;
+    text-align: center;
 }
 .contact{
     padding: 20px;
@@ -146,4 +158,25 @@ hr{
     padding: 20px;
     width: 300px;
     color: white;
+}
+.button{
+    background-color: rgb(197, 31, 93);
+    padding: 15px;
+    width: 100px;
+    color: white;
+    border-style: none;
+    border-radius: 16px;
+    margin-left: 1000px;
+    margin-top: 20px;
+}
+input{
+    background-color: transparent;
+    padding: 15px;
+    width: 100px;
+    color: white;
+    border-style: none;
+    border-bottom: 2px solid rgb(197, 31, 93);
+    width:40%;
+    /* margin-left: 1000px;
+    margin-top: 20px; */
 }
