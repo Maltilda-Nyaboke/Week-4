@@ -19,12 +19,14 @@ nav{
     width: 80%;
 }
 nav ul{
- list-style-type: none;
+ list-style: none;
  margin-top: 20px;
  text-align: right;
+ display: flex;
 }
 
 nav ul li{
+    
     display: block;
     padding: 20px;
     
@@ -136,7 +138,7 @@ span{
 }
 .contact{
     padding: 20px;
-    justify-content: center;
+    vertical-align: middle;
 }
 hr{
     border: 1px solid rgb(197, 31, 93);
@@ -177,6 +179,7 @@ input{
     border-style: none;
     border-bottom: 2px solid rgb(197, 31, 93);
     width:40%;
+    vertical-align: middle;
     /* margin-left: 1000px;
     margin-top: 20px; */
 }
