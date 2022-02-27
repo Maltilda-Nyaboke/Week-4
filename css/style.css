@@ -181,10 +181,14 @@ hr{
     border-radius: 5px;
     padding: 10px;
     color: white;
+    width: 13vw;
+}
+.btn a{
+    color: white;
+    text-decoration: none;
 }
 .btn a :hover{
     background-color: rgb(197, 31, 93);
-    list-style: none;
 }
 .button{
     background-color: rgb(197, 31, 93);
