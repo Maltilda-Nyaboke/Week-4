@@ -14,9 +14,9 @@ body{
     height: 100vh;
 }
 .logo img{
-    height: 20vh;
-    width: 20vw;
-    margin-top: 0;
+    height: 60%;
+    width: 60%;
+    margin-top: 20px;
 }
 nav{
     display: flex;
@@ -144,7 +144,7 @@ span{
 }
 .contact{
     padding: 20px;
-    vertical-align: middle;
+    /* display: flex; */
 }
 hr{
     border: 1px solid rgb(197, 31, 93);
@@ -156,7 +156,7 @@ hr{
 .contact p{
     color: white;
     padding: 20px;
-    margin-left: 420px;
+    margin-left: 350px;
     
 }
 .btn{
@@ -186,6 +186,12 @@ input{
     border-bottom: 2px solid rgb(197, 31, 93);
     width:40%;
     vertical-align: middle;
-    /* margin-left: 1000px;
-    margin-top: 20px; */
+    flex-direction: column;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin-left: 40%;
+    margin-top: 20px;
+}
+input #message{
+    border-width: 30%;
 }
