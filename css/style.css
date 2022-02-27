@@ -218,14 +218,14 @@ hr{
     color: white;
     border-style: none;
     border-radius: 10px;
-    margin-right: 100px;
-    margin-top: 00px;
+    margin-left: 600px;
+    margin-top: 20px;
 }
 .button button{
     color: white;
     background-color: transparent;
     border: none;
-    padding: 10px;
+    padding: 1px;
 }
 input{
     background-color: transparent;
@@ -323,5 +323,6 @@ input #message{
   .footer p{
       color: white;
       text-align: center;
+      margin-top: 20px;
   }
   
