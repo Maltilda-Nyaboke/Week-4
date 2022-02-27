@@ -8,9 +8,10 @@ body{
     background-color: rgb(20, 29, 38);
 }
 .one{
-    background-image: url(../img/panther-spirit-animal.jpg);
+    background-image: url(../img/pexels-jakson-martins-3880049-removebg-preview.png);
     background-size: 100%;
     background-repeat: no-repeat;
+    background-position: right;
     height: 100vh;
 }
 .logo img{
@@ -99,11 +100,13 @@ gap: 20px;
 }
 span{
     color: white;
+    font-weight: bold;
 
 }
 .portfolio h2{
     color: rgb(197, 31, 93);
     text-align: center;
+    margin-top: 120px;
 }
 .two p{
     color: white;
@@ -112,31 +115,32 @@ span{
 .content{
     margin-top: 100px;
 }
-.portfolio{
+.image{
     display: flex;
     justify-content: space-evenly;
-    margin-top: 100px;
+    margin-top: 50px;
     
 }
-.img-1 img{
+.image img{
     justify-content: space-evenly;
     width: 30vw;
     height: 40vh;
     padding: 20px;
     margin-top: 100px;
 }
-.img-1 a :hover{
+/* .img-1 a :hover{
     opacity: 0.2;
     transform: scale(0.25);
-}
-.port{
+} */
+.images{
     display: flex;
     justify-content: space-evenly;
+    margin-top: 100px;
     
 }
-.port img{
+.images img{
     justify-content: space-evenly;
-    width: 30%;
+    width: 30vw;
     height:40vh ;
     padding: 20px;
 }
@@ -174,18 +178,21 @@ hr{
     background-color: transparent;
     border:2px solid rgb(197, 31, 93);
     border-radius: 5px;
-    padding: 20px;
-    width: 300px;
+    padding: 10px;
     color: white;
+}
+.btn a :hover{
+    background-color: rgb(197, 31, 93);
+    list-style: none;
 }
 .button{
     background-color: rgb(197, 31, 93);
-    padding: 15px;
+    padding: 10px;
     width: 100px;
     color: white;
     border-style: none;
-    border-radius: 16px;
-    margin-left: 1000px;
+    border-radius: 10px;
+    margin-right: 100px;
     margin-top: 20px;
 }
 input{
@@ -234,7 +241,7 @@ input #message{
     background: linear-gradient(to right,#c51f5d,#c51f5d,#c51f5d);
     font-weight: 800;
     font-size: 80px;  
-    width: 450px;
+    width: 400px;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     overflow: hidden;
