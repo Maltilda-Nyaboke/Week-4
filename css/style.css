@@ -97,6 +97,7 @@ gap: 20px;
 .two h2{
     color: rgb(197, 31, 93);
     margin-top: 20px;
+    text-align: center;
 }
 span{
     color: white;
@@ -193,7 +194,7 @@ hr{
     border-style: none;
     border-radius: 10px;
     margin-right: 100px;
-    margin-top: 20px;
+    margin-top: 00px;
 }
 input{
     background-color: transparent;
