@@ -24,7 +24,6 @@ nav{
     top: 20px;
     width: 80%;
     justify-content: space-between;
-    display:sticky;
 }
 nav ul{
  list-style: none;
@@ -126,7 +125,7 @@ span{
     line-height: 30px;
 }
 .content{
-    margin-top: 100px;
+    margin-top: 10px;
 }
 
 .image{
@@ -168,6 +167,16 @@ span{
     color: white;
     text-align: center;
 }
+h4{
+    border: 1px solid rgb(197, 31, 93);
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 5px;
+}
 .contact{
     padding: 20px;
     margin-top: 200px;
@@ -203,7 +212,7 @@ hr{
     color: white;
     text-decoration: none;
 }
-.btn a :hover{
+.btn button a :hover{
     background-color: rgb(197, 31, 93);
 }
 .button{
