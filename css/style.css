@@ -108,8 +108,8 @@ gap: 20px;
 }
 .two h2{
     color: rgb(197, 31, 93);
-    margin-top: 30px;
-    text-align: center;
+    margin-bottom: 80px;
+    text-align: left;
 }
 span{
     color: white;
@@ -128,14 +128,7 @@ span{
 .content{
     margin-top: 100px;
 }
-/* .img-1{
-    border: 1px solid rgb(197, 31, 93);
-    border-radius: 10px;
-} */
-/* .img-2{
-    border: 1px solid rgb(197, 31, 93);
-    border-radius: 10px;
-} */
+
 .image{
     display: flex;
     justify-content: space-evenly;
@@ -149,10 +142,12 @@ span{
     padding: 20px;
     margin-top: 10px;
 }
-/* .img-1 a :hover{
-    opacity: 0.2;
-    transform: scale(0.25);
-} */
+.img-1 a :hover{
+    transform: scale(1.2);
+}
+.img-2 a :hover{
+    transform: scale(1.2);
+}
 .images{
     display: flex;
     justify-content: space-evenly;
