@@ -108,7 +108,7 @@ gap: 20px;
 }
 .two h2{
     color: rgb(197, 31, 93);
-    margin-top: 20px;
+    margin-top: 30px;
     text-align: center;
 }
 span{
@@ -128,14 +128,14 @@ span{
 .content{
     margin-top: 100px;
 }
-.img-1{
+/* .img-1{
     border: 1px solid rgb(197, 31, 93);
     border-radius: 10px;
-}
-.img-2{
+} */
+/* .img-2{
     border: 1px solid rgb(197, 31, 93);
     border-radius: 10px;
-}
+} */
 .image{
     display: flex;
     justify-content: space-evenly;
@@ -180,7 +180,7 @@ span{
 }
 hr{
     border: 1px solid rgb(197, 31, 93);
-    width: 40%;
+    width: 3%;
     margin-left: auto;
     margin-right: auto;
     
